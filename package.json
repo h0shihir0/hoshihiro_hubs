@@ -4,6 +4,7 @@
   "description": "Duck-themed multi-user virtual spaces in WebVR.",
   "main": "src/index.js",
   "license": "MPL-2.0",
+  "type": "module",
   "homepage": "https://github.com/mozilla/hubs#readme",
   "repository": {
     "type": "git",
