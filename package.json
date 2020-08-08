@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "webpack-dev-server --mode=development --env.loadAppConfig",
-    "heroku-postbuild": "npm install --dev",
+    "heroku-postbuild": "npm ci",
     "dev": "webpack-dev-server --mode=development --env.remoteDev",
     "local": "webpack-dev-server --mode=development --env.localDev",
     "build": "rimraf ./dist && webpack --mode=production",
