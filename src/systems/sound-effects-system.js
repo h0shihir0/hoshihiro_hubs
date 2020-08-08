@@ -1,20 +1,20 @@
 /* global fetch THREE */
-import URL_TICK from "../assets/sfx/tick.mp3";
-import URL_TELEPORT_LOOP from "../assets/sfx/teleport-loop.mp3";
-import URL_QUICK_TURN from "../assets/sfx/quickTurn.mp3";
+import URL_TICK from "../assets/sfx/tap_mellow.mp3";
+import URL_TELEPORT_LOOP from "../assets/sfx/tap_mellow.mp3";
+import URL_QUICK_TURN from "../assets/sfx/tap_mellow.mp3";
 import URL_TAP_MELLOW from "../assets/sfx/tap_mellow.mp3";
-import URL_PEN_SPAWN from "../assets/sfx/PenSpawn.mp3";
-import URL_PEN_DRAW from "../assets/sfx/PenDraw1.mp3";
-import URL_CAMERA_SNAPSHOT from "../assets/sfx/PicSnapHey.mp3";
-import URL_WELCOME from "../assets/sfx/welcome.mp3";
-import URL_QUACK from "../assets/sfx/quack.mp3";
-import URL_SPECIAL_QUACK from "../assets/sfx/specialquack.mp3";
-import URL_POP from "../assets/sfx/pop.mp3";
-import URL_FREEZE from "../assets/sfx/Eb_blip.mp3";
-import URL_TACK from "../assets/sfx/tack.mp3";
-import URL_MEDIA_LOADED from "../assets/sfx/A_bendUp.mp3";
-import URL_MEDIA_LOADING from "../assets/sfx/suspense.mp3";
-import URL_SPAWN_EMOJI from "../assets/sfx/emoji.mp3";
+import URL_PEN_SPAWN from "../assets/sfx/tap_mellow.mp3";
+import URL_PEN_DRAW from "../assets/sfx/tap_mellow.mp3";
+import URL_CAMERA_SNAPSHOT from "../assets/sfx/tap_mellow.mp3";
+import URL_WELCOME from "../assets/sfx/tap_mellow.mp3";
+import URL_QUACK from "../assets/sfx/tap_mellow.mp3";
+import URL_SPECIAL_QUACK from "../assets/sfx/tap_mellow.mp3";
+import URL_POP from "../assets/sfx/tap_mellow.mp3";
+import URL_FREEZE from "../assets/sfx/tap_mellow.mp3";
+import URL_TACK from "../assets/sfx/tap_mellow.mp3";
+import URL_MEDIA_LOADED from "../assets/sfx/tap_mellow.mp3";
+import URL_MEDIA_LOADING from "../assets/sfx/tap_mellow.mp3";
+import URL_SPAWN_EMOJI from "../assets/sfx/tap_mellow.mp3";
 import { setMatrixWorld } from "../utils/three-utils";
 
 let soundEnum = 0;

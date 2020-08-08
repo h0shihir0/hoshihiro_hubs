@@ -61,7 +61,7 @@ import InWorldChatBox from "./in-world-chat-box.js";
 import AvatarEditor from "./avatar-editor";
 import MicLevelWidget from "./mic-level-widget.js";
 import PreferencesScreen from "./preferences-screen.js";
-import OutputLevelWidget from "./output-level-widget.js";
+// import OutputLevelWidget from "./output-level-widget.js";
 import PresenceLog from "./presence-log.js";
 import PresenceList from "./presence-list.js";
 import ObjectList from "./object-list.js";
@@ -1326,7 +1326,7 @@ class UIRoot extends Component {
               hasAudioTrack={!!this.state.audioTrack}
               muteOnEntry={muteOnEntry}
             />
-            <OutputLevelWidget />
+            {/* <OutputLevelWidget /> */}
           </div>
           {this.state.audioTrack && this.state.micDevices.length > 1 ? (
             <div className="audio-setup-panel__device-chooser">
