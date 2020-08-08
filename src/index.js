@@ -8,9 +8,9 @@ import { HomePage } from "./react-components/home/HomePage";
 import { lang, messages } from "./utils/i18n";
 import "./assets/stylesheets/globals.scss";
 import { AuthContextProvider } from "./react-components/auth/AuthContext";
-// const express = require('express')
-// const app = express();
-// app.set('port', (process.env.PORT || 5000));
+const express = require('express')
+const app = express();
+app.set('port', (process.env.PORT || 5000));
 
 registerTelemetry("/home", "Hubs Home Page");
 
