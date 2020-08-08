@@ -4,7 +4,6 @@
   "description": "Duck-themed multi-user virtual spaces in WebVR.",
   "main": "src/index.js",
   "license": "MPL-2.0",
-  "type": "module",
   "homepage": "https://github.com/mozilla/hubs#readme",
   "repository": {
     "type": "git",
@@ -15,7 +14,7 @@
   },
   "scripts": {
     "start": "webpack-dev-server --mode=development --env.loadAppConfig",
-    "heroku-postbuild": "npm run-script build",
+    "heroku-postbuild": "npm install",
     "dev": "webpack-dev-server --mode=development --env.remoteDev",
     "local": "webpack-dev-server --mode=development --env.localDev",
     "build": "rimraf ./dist && webpack --mode=production",
